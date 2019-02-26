@@ -32,5 +32,5 @@ There is one last implementation provided from IdentityServer3.EntityFramework:
 
 * `ClientConfigurationCorsPolicyService`
     * This implementation draws its list of allowed origins from the `AllowedCorsOrigins` property of the `Client` objects that are stored in the database.
-    * This implementaion will automatically be registered if the `RegisterClientStore` or `RegisterConfigurationServices` extension methods are used. 
+    * This implementation will automatically be registered if the `RegisterClientStore` or `RegisterConfigurationServices` extension methods are used. 
 
